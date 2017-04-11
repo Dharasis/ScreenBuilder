@@ -7,10 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import <MediaLibrary/MediaLibrary.h>
 @interface ViewController : NSViewController
-
+{
+    
+    IBOutlet id mImageBrowser;
+    NSMutableArray * mImages;
+    NSMutableArray * mImportedImages;
+}
 
 @property (strong) IBOutlet NSImageView *imageView;
+@property(nonatomic,strong)MLMediaLibrary *mediaLibrary;
 @end
 

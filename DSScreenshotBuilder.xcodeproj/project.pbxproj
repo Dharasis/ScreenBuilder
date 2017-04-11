@@ -13,6 +13,7 @@
 		DD05C0091E8EFB1A00581874 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05C0081E8EFB1A00581874 /* Document.m */; };
 		DD05C00B1E8EFB1B00581874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05C00A1E8EFB1B00581874 /* Assets.xcassets */; };
 		DD05C00E1E8EFB1C00581874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C00C1E8EFB1C00581874 /* Main.storyboard */; };
+		DD24ACEC1E9D51450035B6C6 /* MediaLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DD05C00A1E8EFB1B00581874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD05C00D1E8EFB1C00581874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD05C00F1E8EFB1C00581874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaLibrary.framework; path = System/Library/Frameworks/MediaLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD24ACEC1E9D51450035B6C6 /* MediaLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +48,7 @@
 			children = (
 				DD05BFFD1E8EFB1700581874 /* DSScreenshotBuilder */,
 				DD05BFFC1E8EFB1700581874 /* Products */,
+				DD24ACEA1E9D51450035B6C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +83,14 @@
 				DD05C0021E8EFB1900581874 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD24ACEA1E9D51450035B6C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +314,7 @@
 				DD05C0141E8EFB1C00581874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
