@@ -7,7 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <MediaLibrary/MediaLibrary.h>
+#import "UploadScreenshotManager.h"
+#import "SaveScreenshotManager.h"
+#import "NSObject+ImageMerging.h"
 @interface ViewController : NSViewController
 {
     
@@ -17,6 +19,6 @@
 }
 
 @property (strong) IBOutlet NSImageView *imageView;
-@property(nonatomic,strong)MLMediaLibrary *mediaLibrary;
+@property (strong) IBOutlet NSImageView *centerImgView;
 @end
 

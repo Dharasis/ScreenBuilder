@@ -7,28 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD05C0001E8EFB1900581874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05BFFF1E8EFB1800581874 /* AppDelegate.m */; };
 		DD05C0031E8EFB1900581874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05C0021E8EFB1900581874 /* main.m */; };
-		DD05C0061E8EFB1900581874 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05C0051E8EFB1900581874 /* ViewController.m */; };
-		DD05C0091E8EFB1A00581874 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05C0081E8EFB1A00581874 /* Document.m */; };
 		DD05C00B1E8EFB1B00581874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05C00A1E8EFB1B00581874 /* Assets.xcassets */; };
 		DD05C00E1E8EFB1C00581874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05C00C1E8EFB1C00581874 /* Main.storyboard */; };
 		DD24ACEC1E9D51450035B6C6 /* MediaLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */; };
+		DD9DBDCA1EAB587400D2BC00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDC31EAB587400D2BC00 /* AppDelegate.m */; };
+		DD9DBDCB1EAB587400D2BC00 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDC61EAB587400D2BC00 /* Document.m */; };
+		DD9DBDCC1EAB587400D2BC00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDC91EAB587400D2BC00 /* ViewController.m */; };
+		DD9DBDD21EAB59B500D2BC00 /* UploadScreenshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDD11EAB59B500D2BC00 /* UploadScreenshotManager.m */; };
+		DD9DBDDC1EAB790C00D2BC00 /* NSObject+ImageMerging.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDDB1EAB790C00D2BC00 /* NSObject+ImageMerging.m */; };
+		DD9DBDE01EAB7A3F00D2BC00 /* SaveScreenshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9DBDDF1EAB7A3F00D2BC00 /* SaveScreenshotManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD05BFFB1E8EFB1700581874 /* DSScreenshotBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSScreenshotBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD05BFFE1E8EFB1800581874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DD05BFFF1E8EFB1800581874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DD05C0021E8EFB1900581874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD05C0041E8EFB1900581874 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD05C0051E8EFB1900581874 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DD05C0071E8EFB1900581874 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		DD05C0081E8EFB1A00581874 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		DD05C00A1E8EFB1B00581874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD05C00D1E8EFB1C00581874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD05C00F1E8EFB1C00581874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaLibrary.framework; path = System/Library/Frameworks/MediaLibrary.framework; sourceTree = SDKROOT; };
+		DD9DBDC21EAB587400D2BC00 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD9DBDC31EAB587400D2BC00 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD9DBDC51EAB587400D2BC00 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		DD9DBDC61EAB587400D2BC00 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		DD9DBDC81EAB587400D2BC00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD9DBDC91EAB587400D2BC00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD9DBDD01EAB59B500D2BC00 /* UploadScreenshotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadScreenshotManager.h; sourceTree = "<group>"; };
+		DD9DBDD11EAB59B500D2BC00 /* UploadScreenshotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadScreenshotManager.m; sourceTree = "<group>"; };
+		DD9DBDD81EAB6ADB00D2BC00 /* DSScreenshotBuilder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DSScreenshotBuilder-Prefix.pch"; sourceTree = "<group>"; };
+		DD9DBDDA1EAB790C00D2BC00 /* NSObject+ImageMerging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImageMerging.h"; sourceTree = "<group>"; };
+		DD9DBDDB1EAB790C00D2BC00 /* NSObject+ImageMerging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImageMerging.m"; sourceTree = "<group>"; };
+		DD9DBDDE1EAB7A3F00D2BC00 /* SaveScreenshotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveScreenshotManager.h; sourceTree = "<group>"; };
+		DD9DBDDF1EAB7A3F00D2BC00 /* SaveScreenshotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveScreenshotManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +73,11 @@
 		DD05BFFD1E8EFB1700581874 /* DSScreenshotBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				DD05BFFE1E8EFB1800581874 /* AppDelegate.h */,
-				DD05BFFF1E8EFB1800581874 /* AppDelegate.m */,
-				DD05C0041E8EFB1900581874 /* ViewController.h */,
-				DD05C0051E8EFB1900581874 /* ViewController.m */,
-				DD05C0071E8EFB1900581874 /* Document.h */,
-				DD05C0081E8EFB1A00581874 /* Document.m */,
+				DD9DBDD31EAB67A400D2BC00 /* ModelClass */,
+				DD9DBDCD1EAB595E00D2BC00 /* Managers */,
+				DD9DBDC11EAB587400D2BC00 /* AppDelegate */,
+				DD9DBDC41EAB587400D2BC00 /* Document */,
+				DD9DBDC71EAB587400D2BC00 /* MainViewController */,
 				DD05C00A1E8EFB1B00581874 /* Assets.xcassets */,
 				DD05C00C1E8EFB1C00581874 /* Main.storyboard */,
 				DD05C00F1E8EFB1C00581874 /* Info.plist */,
@@ -80,6 +89,7 @@
 		DD05C0011E8EFB1900581874 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD9DBDD81EAB6ADB00D2BC00 /* DSScreenshotBuilder-Prefix.pch */,
 				DD05C0021E8EFB1900581874 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -91,6 +101,77 @@
 				DD24ACEB1E9D51450035B6C6 /* MediaLibrary.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9DBDC11EAB587400D2BC00 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDC21EAB587400D2BC00 /* AppDelegate.h */,
+				DD9DBDC31EAB587400D2BC00 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DD9DBDC41EAB587400D2BC00 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDC51EAB587400D2BC00 /* Document.h */,
+				DD9DBDC61EAB587400D2BC00 /* Document.m */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		DD9DBDC71EAB587400D2BC00 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDC81EAB587400D2BC00 /* ViewController.h */,
+				DD9DBDC91EAB587400D2BC00 /* ViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		DD9DBDCD1EAB595E00D2BC00 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDCE1EAB595E00D2BC00 /* SaveScreenshotManager */,
+				DD9DBDCF1EAB595E00D2BC00 /* UploadScreenshotManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DD9DBDCE1EAB595E00D2BC00 /* SaveScreenshotManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDDE1EAB7A3F00D2BC00 /* SaveScreenshotManager.h */,
+				DD9DBDDF1EAB7A3F00D2BC00 /* SaveScreenshotManager.m */,
+			);
+			path = SaveScreenshotManager;
+			sourceTree = "<group>";
+		};
+		DD9DBDCF1EAB595E00D2BC00 /* UploadScreenshotManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDD01EAB59B500D2BC00 /* UploadScreenshotManager.h */,
+				DD9DBDD11EAB59B500D2BC00 /* UploadScreenshotManager.m */,
+			);
+			path = UploadScreenshotManager;
+			sourceTree = "<group>";
+		};
+		DD9DBDD31EAB67A400D2BC00 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDD91EAB78E700D2BC00 /* MergeImage */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		DD9DBDD91EAB78E700D2BC00 /* MergeImage */ = {
+			isa = PBXGroup;
+			children = (
+				DD9DBDDA1EAB790C00D2BC00 /* NSObject+ImageMerging.h */,
+				DD9DBDDB1EAB790C00D2BC00 /* NSObject+ImageMerging.m */,
+			);
+			path = MergeImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD05C0091E8EFB1A00581874 /* Document.m in Sources */,
-				DD05C0061E8EFB1900581874 /* ViewController.m in Sources */,
+				DD9DBDCC1EAB587400D2BC00 /* ViewController.m in Sources */,
+				DD9DBDCB1EAB587400D2BC00 /* Document.m in Sources */,
+				DD9DBDD21EAB59B500D2BC00 /* UploadScreenshotManager.m in Sources */,
+				DD9DBDE01EAB7A3F00D2BC00 /* SaveScreenshotManager.m in Sources */,
 				DD05C0031E8EFB1900581874 /* main.m in Sources */,
-				DD05C0001E8EFB1900581874 /* AppDelegate.m in Sources */,
+				DD9DBDCA1EAB587400D2BC00 /* AppDelegate.m in Sources */,
+				DD9DBDDC1EAB790C00D2BC00 /* NSObject+ImageMerging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +360,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dharasis/ScreenBuilder/DSScreenshotBuilder/DSScreenshotBuilder-Prefix.pch";
 				INFOPLIST_FILE = DSScreenshotBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dharasis.DSScreenshotBuilder;
@@ -288,6 +374,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dharasis/ScreenBuilder/DSScreenshotBuilder/DSScreenshotBuilder-Prefix.pch";
 				INFOPLIST_FILE = DSScreenshotBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dharasis.DSScreenshotBuilder;

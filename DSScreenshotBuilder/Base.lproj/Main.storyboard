@@ -687,7 +687,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u8F-W6-VgH">
-                                <rect key="frame" x="14" y="232" width="84" height="32"/>
+                                <rect key="frame" x="14" y="233" width="84" height="32"/>
                                 <buttonCell key="cell" type="push" title="Upload" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7uJ-ww-Cz2">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -696,23 +696,55 @@
                                     <action selector="uploadImage:" target="5gI-5U-AMq" id="BxR-cD-jq7"/>
                                 </connections>
                             </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kfi-MW-w2k">
-                                <rect key="frame" x="176" y="10" width="312" height="480"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyDown" id="7wJ-3k-cWO"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zSE-GZ-y5g">
+                                <rect key="frame" x="226" y="6" width="262" height="490"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="Iz6-TC-r2J"/>
+                                    <constraint firstAttribute="height" constant="490" id="aY4-2s-LoK"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="imageLayout" id="djt-IN-6Yl"/>
                             </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pGg-VZ-PrW">
+                                <rect key="frame" x="251" y="93" width="211" height="316"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="211" id="3Bn-sb-Dht"/>
+                                    <constraint firstAttribute="height" constant="316" id="nbG-qr-ZKt"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" id="VwR-NL-JUw"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Iva-Ks-xtT">
+                                <rect key="frame" x="17" y="165" width="81" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="7YP-54-OLJ"/>
+                                    <constraint firstAttribute="height" constant="21" id="IYu-TP-SWb"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="93J-qe-dhu">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="saveToDiskButton:" target="5gI-5U-AMq" id="lfp-ed-6zV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="kfi-MW-w2k" secondAttribute="bottom" constant="10" id="Ob1-Xp-Xz9"/>
-                            <constraint firstItem="kfi-MW-w2k" firstAttribute="leading" secondItem="u8F-W6-VgH" secondAttribute="trailing" constant="84" id="QMQ-KT-Ktf"/>
+                            <constraint firstItem="zSE-GZ-y5g" firstAttribute="centerY" secondItem="u8F-W6-VgH" secondAttribute="centerY" id="3r4-pa-FuT"/>
+                            <constraint firstAttribute="trailing" secondItem="pGg-VZ-PrW" secondAttribute="trailing" constant="38" id="3xD-V3-Jfu"/>
+                            <constraint firstItem="pGg-VZ-PrW" firstAttribute="leading" secondItem="u8F-W6-VgH" secondAttribute="trailing" constant="159" id="C5D-8L-Pb0"/>
+                            <constraint firstAttribute="bottom" secondItem="pGg-VZ-PrW" secondAttribute="bottom" constant="93" id="GFc-hU-ofh"/>
+                            <constraint firstItem="pGg-VZ-PrW" firstAttribute="top" secondItem="ERx-hH-rdd" secondAttribute="top" constant="91" id="NO1-pT-6LM"/>
+                            <constraint firstItem="Iva-Ks-xtT" firstAttribute="top" secondItem="u8F-W6-VgH" secondAttribute="bottom" constant="47" id="Nci-um-UGI"/>
                             <constraint firstItem="u8F-W6-VgH" firstAttribute="centerX" secondItem="ERx-hH-rdd" secondAttribute="centerX" constant="-194" id="RnJ-a6-DPr"/>
-                            <constraint firstItem="kfi-MW-w2k" firstAttribute="top" secondItem="ERx-hH-rdd" secondAttribute="top" constant="10" id="UmF-5x-0zy"/>
+                            <constraint firstItem="u8F-W6-VgH" firstAttribute="centerY" secondItem="ERx-hH-rdd" secondAttribute="centerY" id="SXJ-1g-aAu"/>
+                            <constraint firstItem="zSE-GZ-y5g" firstAttribute="leading" secondItem="Iva-Ks-xtT" secondAttribute="trailing" constant="134" id="W2o-cC-gWs"/>
                             <constraint firstItem="u8F-W6-VgH" firstAttribute="leading" secondItem="ERx-hH-rdd" secondAttribute="leading" constant="20" id="bPH-92-slM"/>
-                            <constraint firstAttribute="trailing" secondItem="kfi-MW-w2k" secondAttribute="trailing" constant="12" id="eoB-AQ-Pq8"/>
-                            <constraint firstItem="u8F-W6-VgH" firstAttribute="centerY" secondItem="kfi-MW-w2k" secondAttribute="centerY" id="wC6-hj-iC6"/>
+                            <constraint firstItem="Iva-Ks-xtT" firstAttribute="leading" secondItem="ERx-hH-rdd" secondAttribute="leading" constant="23" id="vRF-qA-T16"/>
+                            <constraint firstAttribute="trailing" secondItem="zSE-GZ-y5g" secondAttribute="trailing" constant="12" id="wX0-CW-SbS"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="kfi-MW-w2k" id="bdL-R5-PeP"/>
+                        <outlet property="centerImgView" destination="pGg-VZ-PrW" id="OK2-l9-JH1"/>
+                        <outlet property="imageView" destination="zSE-GZ-y5g" id="1AG-ud-AZw"/>
                     </connections>
                 </viewController>
                 <customObject id="2Tp-Fl-jBw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -720,4 +752,7 @@
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="imageLayout" width="758" height="1484"/>
+    </resources>
 </document>
